@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
+@import url('http://fonts.cdnfonts.com/css/hatolie');
+
+$basic: #EBD4C8;
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('./img/main-bg.png');
+    background-color: #33302C;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    color: $basic;
+}
+
+.basic-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 0px 25px 0px;
+    border-bottom: 0.5px solid $basic;
+    align-items: center;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header__link {
+    text-decoration: none;
+    color: $basic;
+}
+
+.header__links ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__links {
+    width: 588px;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.heart-icon {
+    margin-right: 32px;
+}
