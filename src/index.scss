@@ -39,6 +39,7 @@ nav ul {
 .header__link {
     text-decoration: none;
     color: $basic;
+    font-size: 14px;
 }
 
 .header__links ul {
@@ -58,3 +59,12 @@ nav ul {
 .heart-icon {
     margin-right: 32px;
 }
+
+.big-brand-word {
+    font-family: 'Hatolie', sans-serif;
+    text-align: center;
+    font-size: 14vw;
+    font-style: normal;
+}
+
+
