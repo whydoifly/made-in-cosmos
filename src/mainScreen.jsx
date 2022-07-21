@@ -4,7 +4,7 @@ import MainSwiper from './mainSwiper';
 const MainScreen = () => {
     return (
         <>
-            <div className="big-brand-word">MADE IN COSMOS</div>
+            <div className="big-brand-word">made in cosmos</div>
             <MainSwiper />
         </>
     );
